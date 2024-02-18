@@ -56,7 +56,6 @@ def get_tag_probabilities(test_sentence, prompt, tag_type, model="gpt-3.5-turbo"
 
     log_prob_dict = {}
     logprobs = response.choices[0].logprobs.content[0].top_logprobs
-    print(logprobs)
     for log_prob in logprobs:
         if log_prob.token in tag_first_tokens[tag_type]:
             log_prob_dict[tag_first_tokens[tag_type][log_prob.token]] = log_prob.logprob
@@ -64,7 +63,6 @@ def get_tag_probabilities(test_sentence, prompt, tag_type, model="gpt-3.5-turbo"
     # if any of the tags are missing, set their probability to 0
     for tag in tag_first_tokens[tag_type].values():
         if tag not in log_prob_dict:
-            print(f"Warning: {tag} not in log prob dict")
             log_prob_dict[tag] = -np.inf
 
     return log_prob_dict
@@ -147,19 +145,33 @@ parser.add_argument(
     type=str,
     default="data/raw-data/tagged_annotated_sentences.csv",
 )
-parser.add_argument("--model_name", type=str, default="gpt-3.5-turbo")
+parser.add_argument("--model_name", type=str, default="gpt-3.5-turbo-0125")
+parser.add_argument("--batch_size", type=int, default=100)
 
 if __name__ == "__main__":
     args = parser.parse_args()
     prompt_types = chat_prompt_templates.keys()
-
     messages_path = here() / args.messages_path
 
     # Load in the messages
     df_messages = pd.read_csv(messages_path)
-
     sentences = df_messages["sentence"].drop_duplicates()
+    sentences = sentences[:100]
 
+    n_batches = int(np.ceil(len(sentences) / args.batch_size))
     print(f"tagging {len(sentences)} sentences...")
-    df_tagged = tag_sentences_prob(sentences)
-    df_tagged.to_csv(here(f"data/tagged_sentences_prob.csv"), index=False)
+
+    df_total = pd.DataFrame()
+    for i in range(n_batches):
+        min_sentence, max_sentence = i * args.batch_size, min(
+            (i + 1) * args.batch_size, len(sentences)
+        )
+        sentence_batch = sentences[min_sentence:max_sentence]
+        df_tagged = tag_sentences_prob(sentences)
+        df_tagged.to_csv(
+            here(f"data/partial/tagged_sentences_{min_sentence}-{max_sentence}.csv"),
+            index=False,
+        )
+        df_total = pd.concat([df_total, df_tagged])
+
+    df_total.to_csv(here(f"data/tagged_sentences_prob.csv"), index=False)
