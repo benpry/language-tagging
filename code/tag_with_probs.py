@@ -68,71 +68,16 @@ def get_tag_probabilities(test_sentence, prompt, tag_type, model="gpt-3.5-turbo"
     return log_prob_dict
 
 
-def assign_tag_from_probs(log_prob_dict, tag_type):
-    """
-    Given log probabilities, assign a tag.
-    """
-
-    # tag for abstraction, biasing the tagging toward concreteness
-    if tag_type == "abstract":
-        p_ignorance, p_abstract, p_concrete = np.exp(
-            [
-                log_prob_dict["ignorance"],
-                log_prob_dict["abstract"],
-                log_prob_dict["concrete"],
-            ]
-        )
-        if p_ignorance > p_abstract and p_ignorance > p_concrete:
-            return "ignorance"
-        elif p_abstract > 0.01:
-            return "abstract"
-        elif p_concrete > 0:
-            return "concrete"
-        else:
-            return "unknown"
-
-    # tag for policy, biasing toward not policy
-    elif tag_type == "policy":
-        if np.exp(log_prob_dict["policy"]) > 0.6:
-            return "policy"
-        elif np.exp(log_prob_dict["not policy"]) > 0.4:
-            return "not policy"
-        else:
-            return "unknown"
-
-    # tag for dynamics, biasing slightly toward not dynamics
-    elif tag_type == "dynamics":
-        if np.exp(log_prob_dict["dynamics"]) > 0.45:
-            return "dynamics"
-        elif np.exp(log_prob_dict["not dynamics"]) > 0.55:
-            return "not dynamics"
-        else:
-            return "unknown"
-
-    # tag for valence, biasing slightly away from neutral
-    elif tag_type == "valence":
-        if np.exp(log_prob_dict["neutral"]) > 0.5:
-            return "neutral"
-        elif np.exp(log_prob_dict["winning"]) > 0.3:
-            return "winning"
-        elif np.exp(log_prob_dict["losing"]) > 0.3:
-            return "losing"
-        else:
-            return "unknown"
-
-
-def tag_sentences_prob(sentences):
+def tag_sentences_prob(sentences, model_name):
     rows = []
     for sentence in sentences:
         row = {"sentence": sentence}
         for tag_type in tag_first_tokens.keys():
             log_prob_dict = get_tag_probabilities(
-                sentence, chat_prompt_templates[tag_type], tag_type
+                sentence, chat_prompt_templates[tag_type], tag_type, model_name
             )
             for val, log_prob in log_prob_dict.items():
                 row[f"{tag_type}_{val}"] = log_prob
-            tag = assign_tag_from_probs(log_prob_dict, tag_type)
-            row[f"{tag_type}"] = tag
         rows.append(row)
 
     return pd.DataFrame(rows)
@@ -156,7 +101,6 @@ if __name__ == "__main__":
     # Load in the messages
     df_messages = pd.read_csv(messages_path)
     sentences = df_messages["sentence"].drop_duplicates()
-    sentences = sentences[:100]
 
     n_batches = int(np.ceil(len(sentences) / args.batch_size))
     print(f"tagging {len(sentences)} sentences...")
@@ -167,7 +111,7 @@ if __name__ == "__main__":
             (i + 1) * args.batch_size, len(sentences)
         )
         sentence_batch = sentences[min_sentence:max_sentence]
-        df_tagged = tag_sentences_prob(sentences)
+        df_tagged = tag_sentences_prob(sentence_batch, args.model_name)
         df_tagged.to_csv(
             here(f"data/partial/tagged_sentences_{min_sentence}-{max_sentence}.csv"),
             index=False,
