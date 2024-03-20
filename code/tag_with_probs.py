@@ -44,9 +44,11 @@ tag_first_tokens = {
     "valence": {"win": "winning", "losing": "losing", "neutral": "neutral"},
 }
 
+
 @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
 def completion_with_backoff(**kwargs):
     return openai.chat.completions.create(**kwargs)
+
 
 def get_tag_probabilities(test_sentence, prompt, tag_type, model="gpt-3.5-turbo"):
     """
