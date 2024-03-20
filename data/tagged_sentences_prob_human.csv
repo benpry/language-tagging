@@ -1,0 +1,207 @@
+sentence,abstract_concrete,abstract_ignorance,abstract_abstract,policy_not policy,policy_policy,dynamics_dynamics,dynamics_not dynamics,valence_winning,valence_neutral,valence_losing
+The goal is to get the yellow block.,-0.0015733063,-6.8794665,-7.7000155,-0.00018601745,-8.68283,-0.00020544765,-8.528539,-0.0033706774,-5.6962056,-inf
+You can use the green blocks to protect yourself by pushing them.,-7.2045503,-inf,-0.0014918884,-3.4125671,-0.033537,-0.00030483783,-8.110151,-0.32076094,-1.2933352,-inf
+Let the red squares reach the green square in as few moves as possible.,-3.147354,-inf,-0.044418126,-6.6031947,-0.0013632126,-1.3753805,-0.29137516,-0.0019707426,-6.2385125,-11.986183
+You can go through the red squares freely without losing the game or getting blocked.,-0.00019626896,-9.376713,-9.208178,-0.005785751,-5.1599913,-0.6161668,-0.77661103,-3.9472575,-0.020085732,-7.836797
+Be careful to stay away from the green squares unless you really have to - they will cost you a life!,-1.8162231,-inf,-0.1775837,-8.613726,-0.000203898,-0.0001756504,-8.666203,-inf,-9.9433155,-5.5623317e-05
+Watch out for the red blocks.,-0.0034701133,-7.2441964,-5.9138894,-3.5563831,-0.028974446,-3.1220477,-0.045095667,-inf,-8.3874584e-05,-10.797249
+This game seems to be missing the purple squares.,-inf,-0.020359334,-3.9116328,-4.0961266e-05,-inf,-7.930452,-0.0003827677,-inf,-5.8603408e-05,-10.81413
+avoid green squares unless you really have to - they will cost you a life!,-8.8862095,-inf,-0.00039325762,-7.825595,-0.00041672974,-0.0021996212,-6.122208,-inf,-9.182342,-0.00011725161
+Remember to use your arrow keys.,-0.00014489953,-9.824404,-9.399364,-0.4599031,-0.9979814,-9.035308,-0.00013488642,-inf,-2.8802491e-05,-inf
+Avoid red blocks at all cost,-0.000115701965,-10.371461,-9.6265745,-8.407946,-0.00023083435,-0.25282243,-1.49892,-9.272103,-0.96269524,-0.48132244
+make sure to figure out your route before you start.,-8.804329,-7.5965123,-0.0007098094,-inf,-1.6166903e-05,-8.436971,-0.00023333763,-4.6441565,-0.009709235,-inf
+"If there are no pink OR orange squares, move against the blocks to turn them into yellow squares.",-2.1575227,-6.026379,-0.12654552,-4.4275203,-0.012029327,-0.083232604,-2.5275686,-0.7837128,-0.6109547,-8.266396
+avoid pink & Brown blocks.,-0.0018329688,-6.418934,-inf,-10.818303,-3.917321e-05,-4.4946847,-0.0112518845,-inf,-0.0007771118,-10.355676
+avoid pink & orange blocks.,-0.0007585271,-inf,-inf,-7.6034484,-0.00050692295,-3.145885,-0.044007663,-9.116586,-0.00088443,-7.2818294
+Avoid light blue blocks.,-1.7478143e-05,-11.945618,-12.022362,-7.9715867,-0.00035131257,-0.0029796024,-5.8187604,-inf,-1.175485,-0.36922207
+Avoid pink & orange blocks.,-0.0008434569,-inf,-inf,-7.6965184,-0.00046415447,-0.06456634,-2.772311,-9.805916,-0.0027046618,-5.967684
+Not sure what green block is there for.,-inf,-0.00011319869,-9.769946,-7.58424e-06,-inf,-inf,-2.7848862e-05,-inf,-1.378283e-05,-inf
+You are the white block this time.,-0.0013828555,-6.7982273,-inf,-9.126521e-05,-inf,-0.00049548666,-7.622085,-inf,-0.00019936825,-inf
+Use Space bar to shoot the falling orange blocks.,-0.001959321,-inf,-inf,-0.7910262,-0.6040984,-0.0025724485,-5.965883,-0.9956288,-0.4615063,-9.798782
+Push Green blocks into the Orange ones to get rid of them if they’re in your way.,-0.0015925843,-inf,-6.4478035,-9.243781,-0.00021045419,-0.0005412389,-7.526094,-0.75801975,-0.6324056,-inf
+A good strategy is going to the side and spamming the spacebar,-8.980665,-7.1269317,-0.00097624067,-0.31157044,-1.3186028,-6.860392,-0.0010704427,-2.9247441,-0.06081049,-inf
+Light blue tiles can harm you.,-9.829823e-05,-10.901147,-9.537168,-0.04872964,-3.0461662,-9.805982e-05,-9.479951,-inf,-9.641737,-7.076218e-05
+Carry the red block to the green goal.,-1.9743013e-05,-inf,-11.444911,-6.155248,-0.0021528807,-inf,-0.0046133534,-0.027584875,-3.6049697,-inf
+Every movement counts.,-inf,-7.618287,-0.0007544778,-0.12030839,-2.177382,-9.870002,-6.1821906e-05,-9.492715,-0.000101874335,-inf
+Letting the yellow cube change all the green to blue results in a game over.,-0.0030093156,-inf,-inf,-0.011157585,-4.5030704,-0.0010979532,-6.819156,-inf,-8.950395,-0.00017612721
+Press the spacebar to fire bullets.,-0.00043639098,-inf,-inf,-0.49252838,-0.9445452,-1.5077649,-0.25029767,-1.614571,-0.2219566,-inf
+The goal is to get to the yellow cube.,-0.0036119476,-7.373384,-5.832496,-0.0008344047,-7.549163,-0.0008004574,-7.17979,-0.0022634943,-6.0938754,-inf
+You are the dark blue block.,-0.0034181974,-5.860428,-inf,-3.3451433e-05,-11.296489,-0.0004194714,-7.789156,-inf,-1.7120534e-05,-inf
+"Lost on my first try so that's all I have, not sure what the goal of the game is, but do NOT do the things listed above.",-inf,-0.00025323365,-inf,-0.00014609157,-8.88618,-9.073577,-0.00012272765,-inf,-6.865822,-0.0010946154
+You play as the blue cube.,-0.0012296347,-7.1038337,-inf,-4.0961266e-05,-inf,-0.00020640128,-8.93129,-inf,-1.247159e-05,-inf
+You play as the dark blue tile.,-0.0016780334,-inf,-inf,-0.00011272187,-inf,-0.00027254096,-8.642912,-inf,-1.473646e-05,-inf
+The yellow cube changes all the green cubes to purple.,-0.009370578,-6.554821,-4.84441,-0.0005288454,-7.570849,-0.00020854695,-8.494,-inf,-0.0017207577,-inf
+"If a red tile hits a light blue tile, your score will go down by 2 points.",-7.159661e-05,-13.441859,-9.615531,-0.95028245,-0.4888395,-3.2855416e-05,-10.365402,-inf,-8.593831,-0.00025883623
+"If all the cubes have been hit, you lose a life.",-0.00044377794,-inf,-inf,-0.34116986,-1.2412381,-0.000836312,-7.091817,-inf,-12.778703,-6.9882217e-06
+"If you touch any cube that isn't green or yellow directly, you will die.",-0.0003902775,-9.959821,-8.136046,-1.1731398,-0.37022233,-0.00010247036,-9.20284,-inf,-12.899076,-3.650519e-06
+One white cube cancels out one green cube.,-0.02556489,-8.950391,-3.6851165,-1.2308068,-0.34544042,-0.0013507109,-6.6099,-6.402626,-0.001711117,-inf
+The other cubes will be moving quickly and randomly and will harm you.,-3.5158527,-inf,-0.030329462,-0.0003311745,-8.391828,-0.00035048186,-7.965074,-inf,-5.121581,-0.005999656
+Be sure to quickly get out of the spawn area.,-1.1619561,-6.3861957,-0.37801865,-3.7243595,-0.024440823,-5.036794,-0.006532057,-6.776397,-0.0011783203,-inf
+Take a moment to look at the situation ahead of you and don't be afraid to take your time.,-11.28253,-inf,-4.1914896e-05,-7.7190614,-0.00045045334,-9.794923,-6.563642e-05,-5.3161316,-0.0049514775,-inf
+Combining light red + dark red and pushing the dark red into the light red also results in a yellow.,-0.019369597,-inf,-3.978188,-0.060235344,-2.8400452,-0.0009593431,-6.9534073,-5.941055,-0.0028473176,-inf
+Just plan ahead before you click start and it's extremely easy.,-inf,-2.0182865,-0.14400925,-0.00021295747,-9.2069025,-9.276694,-0.00011117222,-4.533813,-0.011237857,-inf
+If you eat all the proper squares you win.,-0.14818461,-2.415345,-3.0342147,-0.0066251317,-5.023778,-1.1906973,-0.3624579,-0.0001004439,-inf,-inf
+Green is bad.,-0.4468158,-1.0458529,-4.78488,-0.019493412,-4.0471005,-3.5525026,-0.029114673,-inf,-0.16511953,-1.883469
+White is your shield and yellow is the goal.,-1.2519119,-7.6884923,-0.33777496,-0.05146245,-2.9928954,-0.0050305906,-5.2955313,-0.0013539258,-7.155994,-inf
+Beware of the random moving squares.,-6.5584645,-8.430551,-0.0018010809,-0.33618653,-1.2535697,-0.88282865,-0.53380865,-inf,-0.041423712,-3.2055645
+Grab the dark orange square and bring it to the green square.,-0.002641891,-inf,-inf,-6.2670655,-0.0019137615,-6.037943,-0.0024033624,-0.17160542,-1.8473448,-inf
+Don't touch the light blue squares or you die.,-2.3676734e-05,-11.695531,-11.969914,-5.4014516,-0.004526604,-0.00012999907,-8.958712,-inf,-12.806199,-4.9617593e-06
+That's all I know.,-inf,-0.00020604367,-inf,-9.610702e-06,-inf,-inf,-0.00014716439,-inf,-0.0002292847,-inf
+Good luck comrade.,-inf,-0.09197844,-2.4377522,-3.750436e-05,-inf,-inf,-1.0683535e-05,-12.10171,-4.5133394e-05,-inf
+Push the green square on top of the red square to get rid of them.,-1.3067608e-05,-inf,-11.387596,-inf,-0.0017184966,-0.03418005,-3.3933358,-5.4571075,-0.0044308286,-inf
+You can step on top of the red squares.,-0.00012499251,-10.040795,-9.53386,-0.00051371387,-7.6280427,-0.01121122,-4.4971657,-5.61829,-0.0037478216,-9.59745
+White is your key and yellow is the goal.,-1.4785907,-6.8497972,-0.2603271,-0.03069771,-3.4994593,-0.0299908,-3.5221632,-0.028577978,-3.5712626,-inf
+When you enter the green square it will turn yellow again.,-0.00024275472,-9.291873,-8.893918,-0.0001593195,-8.7807,-0.003099762,-5.7792993,-5.922285,-0.0027046618,-inf
+I don't understand how to win,-inf,-6.46828e-05,-inf,-3.7697225e-06,-inf,-inf,-1.1517961e-05,-7.7355237,-0.008032555,-4.915732
+Be patient until you are in the clear.,-9.831546,-7.8576446,-0.00048393858,-2.1426914,-0.12485,-7.5092754,-0.00055898924,-8.571776,-0.00020652048,-inf
+"Finally, if no orange squares exist but pink squares do, ""eat"" those.",-1.7989184,-8.21425,-0.18163936,-5.7714567,-0.0031308944,-0.01825659,-4.012552,-0.28009573,-1.4097744,-inf
+Good luck!,-inf,-0.00049095694,-8.036246,-1.0802739e-05,-inf,-inf,-9.133887e-06,-11.4203005,-5.443128e-05,-inf
+Green squares are bad.,-0.020231076,-3.9628599,-7.071913,-0.7297166,-0.65798694,-0.51576257,-0.90902543,-inf,-0.29885557,-1.3539493
+Touching the orange and pink squares leads to death.,-3.261701e-05,-inf,-11.463303,-1.0837876,-0.41299972,-5.0139948e-05,-9.929891,-inf,-12.314702,-6.6306106e-06
+You can use the same red square to remove multiple green squares.,-0.08745108,-inf,-2.4802942,-1.3484118,-0.30069184,-0.04262069,-3.1770048,-0.15521526,-1.9400015,-inf
+The goal is to reach the yellow square.,-0.0133911455,-8.215765,-4.3433776,-0.0003768112,-7.941203,-0.00013357517,-8.960985,-0.0015686647,-6.460681,-inf
+Red blocks will spawn from the purple block and will try to reach the green block.,-0.3795335,-inf,-1.1542394,-0.32513502,-1.281821,-0.00018530223,-9.240732,-8.491326,-0.42072022,-1.0696536
+(Note: the yellow square can go through walls) If all the green squares turn purple you also will die.,-0.29008797,-inf,-1.385917,-0.38292632,-1.1454386,-0.0011271214,-6.790802,-inf,-5.2364583,-0.005390519
+Remove all blue squares to win.,-0.0039952924,-inf,-inf,-5.140521,-0.005887199,-0.0011122356,-6.8042874,-1.8074163e-05,-11.597434,-inf
+No idea,-inf,-0.00014942927,-inf,-1.0445127e-05,-inf,-inf,-0.0005605389,-inf,-0.0005119258,-inf
+Avoid yellow block.,-8.11329e-05,-9.718026,-inf,-10.681141,-5.347765e-05,-1.2791171,-0.32617706,-inf,-0.020970643,-3.8784592
+Get the red and yellow blocks.,-0.00056792586,-9.735998,-inf,-0.47570798,-0.9715271,-6.1729445,-0.002099349,-0.44560555,-1.0230458,-inf
+Avoid yellow block while touching the blue ones.,-0.0044574165,-7.452656,-5.5816746,-9.338263,-9.126521e-05,-0.4272583,-1.0564659,-7.8756304,-0.09395132,-2.4167376
+Try to get the yellow block.,-0.006100028,-inf,-inf,-0.007813517,-4.8577185,-0.0023718432,-6.047063,-7.9607916,-0.0006951583,-inf
+"Don't touch red/pink blocks, can grab light blue blocks.",-0.00035333907,-9.3149,-8.362271,-8.773753,-0.00015753144,-0.043776065,-3.15058,-10.487718,-2.4487507,-0.09045154
+You can also press space next to the gray blocks to collect them.,-0.006235802,-11.277797,-5.0860066,-0.5557413,-0.85262394,-0.0034786668,-5.6639647,-0.18730965,-1.7675022,-inf
+You cannot move purple blocks.,-0.0005138331,-8.89568,-7.9199,-0.0824905,-2.536468,-0.00017338553,-8.669815,-inf,-9.996708e-05,-inf
+Some red blocks are inaccessible.,-6.187736,-2.5794463,-0.08128889,-8.537869e-06,-12.513537,-0.8877309,-0.53036433,-inf,-7.815281e-05,-9.666786
+Levels get harder as you progress.,-10.047683,-3.5725448,-0.028609032,-0.00014215785,-8.916406,-2.5857506,-0.078352034,-11.674078,-2.4391957e-05,-inf
+Be careful to not push a green block where it can get stuck.,-4.711901,-inf,-0.009058386,-7.96197,-0.0003550079,-0.15927663,-1.9157597,-9.38853,-0.0059827124,-5.1427436
+"Do not touch light blue blocks, or you will die.",-0.0025995572,-inf,-inf,-7.5604167,-0.0005239617,-0.00010211275,-9.21597,-inf,-10.551631,-6.396757e-05
+Try not to stay still or you will die.,-0.54821944,-7.450712,-0.86425185,-0.92401654,-0.5057617,-0.9050221,-0.5184426,-inf,-7.24749,-0.00073243614
+Red and pink blocks will hurt you.,-4.2510914e-05,-11.361804,-10.772845,-0.38654977,-1.1376312,-9.615256e-05,-9.27089,-inf,-8.023676,-0.0003395151
+You cannot move purple blocks and maybe pass through them.,-2.1519294,-1.6104256,-0.38035735,-0.10051408,-2.3476627,-0.10836484,-2.276097,-inf,-0.0017013643,-6.462364
+You control the darkest blue square.,-0.0017508649,-6.61709,-8.232748,-3.3213026e-05,-inf,-0.009203813,-4.706519,-inf,-0.00014609157,-inf
+The best strategy for this game is to rapidly use the arrow keys on your keyboard to the green squares whilst avoiding the red ones.,-7.8647757,-inf,-0.00060164585,-5.9460416,-0.002630827,-7.5704074,-0.0006726399,-0.0001170132,-9.219655,-inf
+Navigate to the white block and then go to the yellow one after passing through the green one.,-0.47020045,-inf,-0.99234474,-7.777958,-0.00042555082,-1.0303726,-0.44144252,-0.47220114,-0.97727275,-inf
+Navigate in the direction of the purple squares and use your square to push them against the light blue squares in order to clear a path for yourself to the goal,-7.035476,-inf,-0.0019716963,-8.730286,-0.00018339496,-0.0025091895,-5.9920683,-0.0012243935,-6.7293415,-inf
+I'm not sure I died.,-inf,-4.0603656e-05,-inf,-2.8160932e-06,-inf,-inf,-9.610702e-06,-inf,-6.5924864,-0.0014751063
+"After this, navigate back to the green square to end the level.",-0.010336984,-inf,-4.5835485,-1.226585,-0.34724393,-0.24687003,-1.519867,-1.0571196,-0.4269908,-inf
+Avoid the orange blocks while navigating to the yellow block.,-0.00082892505,-inf,-7.145692,-10.516129,-3.0113732e-05,-0.010356563,-4.575624,-7.3944464,-0.22382464,-1.6101352
+You can safely touch the red blocks.,-0.00063988456,-7.6547136,-8.849866,-0.009447215,-4.6687164,-0.26562214,-1.4557028,-8.878915,-0.04738364,-3.0783818
+You are the blue block.,-0.0020383222,-6.3902125,-inf,-7.255024e-05,-inf,-0.0003836021,-7.885401,-inf,-1.247159e-05,-inf
+Make sure you collect all white blocks before going for the yellow!,-0.043237366,-inf,-3.1632898,-8.120799,-0.00030412263,-1.2743042,-0.32802075,-0.23440693,-1.566257,-10.0261545
+You will complete the level by getting rid of all the blue blocks.,-0.095640965,-inf,-2.394921,-0.006423087,-5.0563707,-0.0009877925,-6.9350758,-0.0006672831,-7.332975,-inf
+Don't waste the white you gain.,-2.561023,-6.619128,-0.08191601,-3.4621646,-0.031881995,-3.4146612,-0.033471756,-6.362501,-0.0019072162,-9.380667
+its worth it at times to destroy some walls by punching holes to get a perfect system going making red squares easily go into the green square.,-8.149354,-inf,-0.0012564226,-5.0191255,-0.006653207,-0.022144565,-3.821688,-0.0025050286,-6.000893,-inf
+"The yellow square is extremely slow and will attempt to revert squares you turn back into green into purple, you can abuse that to protect further squares by keeping the yellow square at one or two squares.",-8.359836,-inf,-0.0029134077,-2.6549475,-0.07303067,-0.005603681,-5.188299,-0.23853476,-1.5512103,-inf
+"If there are no red blocks, get all the blocks there are.",-1.0299253,-2.0680304,-0.66106135,-3.3556356,-0.03553093,-5.091246,-0.0062070084,-0.5130514,-0.9131235,-inf
+This can be dangerous if overused -- you need some walls to guide the red squares.,-inf,-6.6111255,-0.0018323729,-1.9361228,-0.15583403,-0.0018062029,-6.320179,-6.2605524,-0.36473355,-1.1931695
+The yellow square moves around and changes all the green squares to purple.,-0.06505215,-6.960451,-2.780943,-0.00019173922,-8.607652,-0.00021486107,-8.467629,-5.866627,-0.0031324439,-8.378697
+"You can only push the purple squares one at a time, not when they are stacked against each other.",-0.030833712,-inf,-3.4951797,-4.0440564,-0.017692938,-0.00016790217,-8.705126,-11.339922,-0.0001909048,-8.776442
+Clear a path for the red squares to reach the green square.,-0.05164428,-inf,-2.9899073,-10.560756,-3.1782583e-05,-0.002095661,-6.169992,-0.055624403,-2.9410825,-6.6695924
+"Beware, the yellow square can go through walls.",-0.055649437,-10.628089,-2.9170978,-0.68310976,-0.70335627,-0.0008503671,-7.075723,-10.073817,-0.6051856,-0.78985703
+The dark blue will kill you,-0.0003712086,-8.558515,-8.807597,-0.0012597566,-6.685645,-0.0003643058,-7.926365,-inf,-8.645482,-0.00026181265
+You can move the green,-3.1080048,-0.05007486,-5.7137675,-0.004254577,-5.4655466,-5.0349426,-0.0066221775,-9.539378,-0.00010950337,-inf
+"I.e, if there are two green squares and five yellow squares, eat the two green squares first.",-1.5831206,-5.3827534,-0.2376177,-1.7480507,-0.19133563,-0.4775916,-0.96837914,-1.375388,-0.29142842,-inf
+The light blue will kill you.,-0.00029768562,-10.35972,-inf,-0.01979394,-3.9331107,-0.00020497083,-8.51246,-inf,-12.5252495,-5.3193703e-06
+The green square is a trigger.,-0.043627955,-6.7134104,-3.1833107,-0.00038598618,-7.908442,-7.767599e-05,-inf,-inf,-6.7901296e-05,-inf
+You can go through the red.,-0.0025464124,-6.0671787,-8.749622,-0.002141932,-6.1532383,-0.11573728,-2.2138913,-6.2439394,-0.0020935189,-9.378125
+The moving orange squares turn them green.,-0.0131595265,-5.0826826,-4.993306,-0.0010972379,-6.8228364,-0.021291029,-3.8607323,-5.3193555,-0.005012802,-10.258457
+Yellow to win.,-2.5593278,-0.081441745,-7.693413,-0.001112474,-6.813061,-0.6634087,-0.723864,-0.004543454,-5.3996773,-inf
+"think before each push, you can easily get trapped.",-7.951806,-9.277532,-0.0005140715,-8.935502,-0.00013619766,-5.6088495,-0.0036953243,-6.33959,-0.022437893,-3.895725
+imagine the purple square on the position you want to push it to first.,-6.761201,-inf,-0.0015230757,-11.439242,-3.750436e-05,-1.8145499,-0.17786743,-2.2651985,-0.10980114,-inf
+"We don't know what the red square does, so be careful.",-inf,-0.016775848,-4.1060514,-0.1465063,-1.9932489,-4.1957903,-0.01519688,-inf,-7.421909e-05,-11.964493
+The light blue squares will kill you from what I experienced.,-5.7777467,-0.031586014,-inf,-6.206032e-05,-9.797196,-0.01535995,-4.1843147,-inf,-12.52096,-5.4385737e-06
+Move quickly to figure out the pink and purple squares behavior.,-7.0922894,-5.73568,-0.004200325,-4.743827,-0.008755794,-6.809827,-0.0011264061,-4.293217,-0.013870925,-inf
+Do NOT let the yellow touch you either.,-0.0017425317,-inf,-inf,-6.6720247,-0.0012695167,-0.27125922,-1.4372977,-inf,-3.8244207,-0.022109699
+It appears that the goal is to push all the green squares into any of the red squares.,-0.4686599,-inf,-0.9834933,-0.0017538341,-6.424657,-0.0003246183,-8.0421505,-0.025434855,-3.6858048,-10.758265
+You can safely walk over the red squares.,-0.00017302792,-inf,-10.635682,-0.037268616,-3.308835,-0.005307285,-5.282548,-5.955683,-0.004399025,-6.366343
+See move ahead of push to not block yourself in.,-3.0291035,-9.432519,-0.049748596,-7.9824347,-0.000363829,-1.9561691,-0.15248868,-2.2789395,-0.10811547,-inf
+Start with moving the purple squares to the left of the opening to better not trap yourself.,-2.7128568,-inf,-0.06882713,-8.909503,-0.00013846254,-0.4149767,-1.0799109,-0.11681527,-2.2065942,-inf
+"I think you need to hit all the green squares, that turned into purple by the yellow square with your brown square attack at least once to clear.",-7.4422393,-2.2161765,-0.116559416,-0.12851495,-2.1157854,-0.35098502,-1.2174535,-0.23375218,-1.5692414,-8.683122
+"Here is a hierarchy of BOLDEST to least bold colors, so gathering the color furthest left on this list will end the level.",-7.2201285,-inf,-0.001172725,-1.7090213,-0.19977257,-0.0039400756,-5.622579,-0.08818874,-2.4727063,-inf
+"Red, Orange, pink, green.",-inf,-0.002813671,-inf,-2.5941605e-05,-inf,-5.0050216,-0.0067821657,-inf,-0.0004518838,-inf
+Solve the puzzle by first gathering enough white boxes to pass through the green boxes and get to the yellow box.,-2.6133342,-inf,-0.07727014,-9.354959,-0.00012284685,-0.0039095576,-5.546968,-0.00038336372,-7.9135456,-inf
+"If you see a pink box, pushing it will turn it into a red box.",-0.004194387,-inf,-5.4787407,-3.396131,-0.034089603,-0.00039611853,-7.84119,-6.0899987,-0.0023580485,-9.9239645
+Your avatar is the blue box.,-0.00018649426,-8.965937,-inf,-2.7133641e-05,-inf,-0.00039885283,-7.8399086,-inf,-9.729906e-06,-inf
+Green boxes cannot move through other green boxes and you cannot push more than one box at a time.,-0.0068427757,-inf,-4.997628,-0.108996175,-2.272824,-0.00012678056,-9.490764,-11.08821,-0.0017956084,-6.344493
+Carefully plan your route so you can reach the goal.,-9.752138,-inf,-7.624555e-05,-11.006188,-2.5583993e-05,-9.749754,-7.278864e-05,-1.0055437,-0.4555216,-inf
+Dark blue boxes are consumed when they erase a light blue box so your ability to remove them is limited by the number of dark blue boxes.,-0.6726216,-inf,-0.7365731,-0.048009317,-3.0611167,-0.0003280752,-8.029282,-3.8078554,-0.088691436,-2.7739313
+Touching the green and blue  boxes seems to do nothing.,-4.1193056,-0.027111849,-4.871661,-1.1756368e-05,-inf,-5.0262437,-0.006602041,-inf,-2.0696643e-05,-inf
+I didn't touch a red box while it was moving.,-6.3208,-0.005152639,-5.941247,-0.000708025,-7.266907,-8.988086,-0.00021248066,-4.5181646,-0.018012267,-4.9873343
+Keep moving quickly to turn the boxes yellow again once they are turned green.,-0.6723534,-inf,-0.7145859,-7.3131914,-0.00067430874,-0.34059957,-1.2426248,-1.00928,-0.4539878,-7.9785085
+Focus on defending the yellow boxes first.,-2.4944673,-inf,-0.08630039,-6.8531065,-0.0010709196,-2.8569877,-0.05919527,-0.4012513,-1.1075253,-inf
+I didn't try using it.,-inf,-0.00034046874,-inf,-6.2729996e-06,-inf,-inf,-6.2729996e-06,-inf,-6.9331734e-05,-inf
+Go for white blocks first and then move.,-0.0023042932,-inf,-inf,-7.1245685,-0.0008121283,-6.806936,-0.0012433248,-2.4215076,-0.09313264,-inf
+Avoid the yellow boxes please!,-0.00025657137,-8.961263,-9.137368,-9.230281,-0.00010163593,-5.41738,-0.0044753393,-10.185549,-0.04523422,-3.120624
+Move with ARROW KEYS.,-0.0012119027,-inf,-inf,-0.8076911,-0.5904498,-10.121299,-0.00011331789,-inf,-4.429897e-05,-inf
+"Move the DARK BLUE box to collect other colored boxes, based on the following pattern.",-0.0019192412,-10.709614,-6.2871537,-4.959549,-0.007053388,-0.051544763,-2.9911675,-2.1044602,-0.13018654,-inf
+Collect all of the LEFT-MOST COLOR.,-0.007961955,-5.999079,-5.229119,-8.923904,-0.00016623331,-0.015250305,-4.1911516,-0.44851366,-1.018355,-9.306842
+"Sometimes, you'll have to take another route to gather enough WHITE boxes to reach the YELLOW one.",-6.391774,-inf,-0.0018109601,-5.4836416,-0.004170645,-0.064911276,-2.7671075,-0.44325772,-1.0278524,-inf
+Control WHITE BOX with arrow keys.,-2.188868e-05,-12.259269,-inf,-0.1742167,-1.8336539,-0.80223155,-0.5948646,-12.094544,-2.9279307e-05,-inf
+"Never push a movable box to the outside perimeter of the game field or it will get stuck there, and cannot be used to complete the level.",-0.88265944,-inf,-0.53408384,-7.720781,-0.00044985735,-0.0001311911,-8.953934,-inf,-4.458989,-0.011751909
+Control BLUE BOX with arrow keys.,-1.2948405e-05,-inf,-12.619043,-0.16678059,-1.87389,-1.1721528,-0.37067723,-inf,-2.8921695e-05,-inf
+"Push the BLUE box into GREEN boxes to move them, and push all GREEN boxes to a RED box to beat the level.",-0.0018378451,-inf,-9.137879,-6.376157,-0.0017119476,-0.0010904471,-inf,-0.0005927092,-7.4412017,-inf
+"Remember, GREEN boxes can all go to ANY RED box.",-0.3453028,-inf,-1.2312224,-2.0145392,-0.14318788,-0.006195996,-5.087611,-3.9085217,-0.020347653,-inf
+"Tapping the space bay causes the avatar to ""shoot"" a BROWN box in the direction the avatar last moved.",-0.00024953834,-9.180767,-9.048725,-0.21363905,-1.6486309,-0.0019759766,-6.23044,-3.6623547,-0.026152931,-9.952945
+"Use the Space Bar to ""shoot"" a BROWN box from the BLUE box, in the last direction the BLUE box moved.",-0.00017851128,-inf,-9.315852,-6.304043,-0.0018423712,-0.00034440245,-8.538075,-8.869688,-0.0004004025,-inf
+Your goal is to get to the YELLOW box.,-0.00019996427,-9.889023,-8.902296,-0.0015698569,-6.477543,-0.0005701907,-inf,-0.000484177,-7.653402,-inf
+ORANGE boxes will kill you if you move into them.,-0.000113079484,-10.387498,-9.689494,-1.0975872,-0.40601885,-3.3809047e-05,-10.332683,-inf,-11.246125,-1.5928495e-05
+Once YELLOW square is triggered it will seek out the nearest wall so don't be in its path.,-0.06388988,-inf,-2.7833552,-4.012779,-0.018268518,-0.00014931006,-8.82451,-7.1706314,-0.18327892,-1.7923621
+Trigger both BLUE squares by shooting them then wait while avoiding moving YELLOW squares.,-0.02343985,-inf,-3.840876,-4.5379395,-0.010773079,-0.0017471734,-6.3516083,-2.1355903,-0.12603259,-9.295127
+Plan out the white boxes before making your way to the final yellow box.,-6.772665,-inf,-0.0012514197,-9.100039,-0.000116417184,-2.143684,-0.12470573,-0.018447712,-4.003029,-inf
+(Example: the 1st level move all GREEN boxes to the bottom RED box only.),-0.0071471296,-6.1728635,-5.3138547,-3.4172018,-0.03338217,-1.3726053,-0.29234788,-0.677346,-0.70949435,-inf
+"Be very quick in avoiding the moving boxes, and choose the right moments to move.",-9.014907,-inf,-0.00016682933,-5.4159827,-0.00446442,-8.196504,-0.00036370975,-2.1709843,-0.121179484,-inf
+The YELLOW box turns GREEN boxes to PURPLE when it touches them.,-0.004214213,-8.623469,-5.520959,-0.014135654,-4.2677445,-9.0907604e-05,-9.32903,-6.897279,-0.0020608075,-6.9010744
+All GREEN boxes turning PURPLE will also cost a life.,-0.0009943449,-8.346917,-7.219832,-0.6208156,-0.77119476,-0.00028362326,-8.462436,-inf,-7.176173,-0.0010272121
+DO NOT touch a GREEN box without collecting enough WHITE!,-0.0062066508,-6.9191074,-5.2724514,-8.959691,-0.00013238314,-0.14616421,-1.9952719,-inf,-1.8093275,-0.17901741
+"Color Bank:  
+Blue = Control
+Green = Pushable
+Red = Target
+
+Instructions: 
+Using the blue box, push all green boxes into red boxes!",-0.0019363662,-inf,-6.2966714,-9.796692,-6.6947665e-05,-0.003522033,-5.652179,-0.008638917,-4.7575,-inf
+Later levels it is easy to get stuck!,-inf,-6.888252,-0.0012696359,-5.6769813e-06,-inf,-12.075803,-1.3902034e-05,-inf,-6.483106,-0.0015733063
+"Objective:
+Controlling the dark blue box: Create yellow squares that eat up the map!",-0.06985784,-inf,-2.7065995,-0.9865182,-0.46683627,-0.0138826845,-4.2851896,-0.00041756415,-7.8095875,-inf
+Eventually once everything is destroyed the level should be completed!,-6.6769967,-1.1417663,-0.38679954,-0.0006166508,-7.447331,-1.8271679,-0.1754383,-0.002194279,-6.2739515,-inf
+Boxes are trying to breach and you must defend as best you can!,-inf,-4.216218,-0.0149471285,-0.004138361,-5.496301,-6.627125,-0.0013486882,-0.19427812,-1.7409891,-6.780229
+Stay alive long enough and you will win!,-inf,-0.45283288,-1.0110033,-0.000147522,-9.268401,-7.579597,-0.0005299182,-4.167649e-05,-10.249815,-inf
+"By using the arrow key , move the blue square and merge with other square to collect and win the game and in few levels I just merge with orange square to win faster",-0.48722646,-1.5504112,-1.7792854,-0.6339883,-0.7563676,-5.1682773,-0.005788243,-0.0009558862,-6.9982247,-inf
+I would suggest to collect the white square,-4.7432256,-3.473143,-0.040825486,-4.249641,-0.014390436,-4.256982,-0.01428679,-1.5585649,-0.2363984,-inf
+However I am not able to succeed in the game,-inf,-3.7265952e-05,-inf,-3.888926e-06,-inf,-inf,-4.8425554e-06,-inf,-9.709196,-8.172892e-05
+"And I tried to merge with other blue , my block able to push the other blue block but didn't win",-inf,-0.00032592955,-inf,-1.2233183e-05,-inf,-6.372977,-0.001738244,-7.2400494,-0.77748495,-0.61731154
+Ignore the red square at the top.,-0.0015797324,-6.8552213,-7.622975,-3.271402,-0.038714793,-5.259959,-0.0052230866,-7.904804,-0.0004006409,-inf
+At the level 2 Move the blue square to collect all white squares not hidden by green squares first.,-0.046322346,-7.653483,-3.1132207,-7.5908585,-0.00051287946,-0.30892727,-1.3252237,-0.48317024,-0.9594295,-inf
+I was able to merge with the red but it did not collect it.,-inf,-0.0004972711,-inf,-8.061054e-06,-12.639666,-5.0340176,-0.0065500555,-inf,-0.27837852,-1.4160223
+"When they reach the bottom yellow squares, they turn green.",-0.000957555,-8.082634,-7.392338,-7.79144e-05,-inf,-0.00035953766,-7.941722,-4.494868,-0.011274992,-inf
+"Not sure, was unsuccessful.",-inf,-4.2630116e-05,-inf,-8.061054e-06,-inf,-inf,-1.92662e-05,-inf,-3.6458228,-0.026544694
+The dark orange & pink squares will kill you.,-0.0001843486,-10.404126,-8.855676,-0.1353056,-2.0673087,-9.651017e-05,-9.271483,-inf,-12.243284,-8.061054e-06
+"You can also push the green tiles into the pink tiles, but they are just moved and remain on the board.",-0.035601456,-inf,-3.3551567,-0.15762053,-1.9256431,-0.0028373266,-5.8674097,-7.8898387,-0.00045534072,-10.071048
+"I died on Level 1, but I learned some things.",-inf,-8.268255e-05,-inf,-6.1537958e-06,-inf,-11.32603,-2.0458236e-05,-inf,-inf,-0.00048548827
+"Once the purple square hits the light blue square, they vanish.",-0.0006758584,-inf,-inf,-0.0019229217,-6.260777,-0.00035036262,-7.969684,-0.82671106,-0.5755037,-10.010488
+focus on targets.,-10.091581,-6.630318,-0.0014290478,-0.8607439,-0.54972017,-inf,-8.017927e-05,-3.63671,-0.026814211,-inf
+You are not able to push multiple blocks together.,-0.0035976942,-7.767657,-5.761309,-0.0017916784,-6.3479524,-0.00019769941,-9.162175,-inf,-0.00032700237,-8.077434
+"Don't go too fast when close to the moving squares, they're very erratic.",-2.928344,-inf,-0.055043414,-5.1835413,-0.0056350976,-2.907225,-0.05620597,-inf,-0.00020354039,-9.964499
+Avoid touching the yellow square.,-1.0325924e-05,-12.129884,-inf,-11.409343,-2.2127088e-05,-0.0074141244,-4.908726,-8.829411,-0.6921848,-0.6945957
+"In this game, you die upon collecting a green square, and win upon collecting a yellow square.",-0.010447288,-7.442458,-4.647765,-0.06708217,-2.735625,-0.0011445031,-6.7747574,-0.57341564,-2.4459114,-1.0510863
+Pushing the green squares into the bottom red square is the safest route because there is more open space on the bottom half of the map and harder to get a green square stuck if you play it right.,-7.3426733,-inf,-0.0019977507,-7.8345785,-0.0004073163,-0.0008509631,-7.072411,-0.022549203,-3.8093438,-inf
+"You die if you touch a red or green square, and the pink ones are solid so you can't run into them.",-0.004856815,-8.227315,-5.437403,-0.06125079,-2.8236809,-0.0005709059,-7.471421,-inf,-11.843556,-1.0564331e-05
+"I am 95% sure that you have to collect the yellow square to win the level, so just try to avoid collecting any square other than yellow, to win the game.",-inf,-0.035997577,-3.3464987,-1.1188272,-0.39560446,-5.081199,-0.0062727598,-0.023723718,-3.7550678,-10.760834
+Do not get any squares stuck into a corner or a wall because there will be no way to push them back out and you will have to forfeit the level.,-3.3500683,-9.769164,-0.035935715,-6.7204375,-0.001218094,-0.052339267,-2.976299,-inf,-12.2282295,-9.610702e-06
+You die if you touch one of the moving squares.,-0.00059092115,-7.854257,-9.076292,-0.020215297,-3.9124444,-0.00012403888,-10.11548,-inf,-14.163973,-1.9816675e-06
+Touching a light blue square will kill you.,-2.8206474e-05,-11.654964,-inf,-1.4619579,-0.26371568,-7.183501e-05,-9.57265,-inf,-13.758084,-2.6968896e-06
+You cannot die.,-4.1949687,-0.035411157,-3.9473774,-3.8338785e-05,-inf,-0.7167278,-0.6702228,-9.058023,-0.002683968,-5.993277
+Red or yellow squares that have changed colours can be reverted by touching them.,-0.004400444,-11.7751255,-5.4348946,-1.4422909,-0.2697388,-0.00053933164,-7.529329,-inf,-5.9437833e-05,-inf
+Touching a red square will turn it yellow.,-0.0007771118,-inf,-inf,-0.052914947,-2.9657872,-0.0014742719,-6.52417,-2.16797,-0.121627145,-inf
+Pushing an orange square into a purple square will turn it yellow.,-0.0007848527,-10.848821,-7.1849146,-0.8538833,-0.55475765,-0.00025073037,-8.307906,-0.57531214,-0.8268647,-inf
+In order to win you must collect all the squares of a single colour.,-0.6591175,-inf,-0.72860605,-1.6174154,-0.22120194,-0.008023103,-4.830077,-9.014684e-06,-12.785979,-inf
+Your objective of the game is to try to touch the brown square.,-0.034889907,-3.6122482,-5.368983,-0.0003925424,-7.9128776,-0.0010906854,-6.8241076,-0.0018316576,-6.663222,-inf
+"It is not worthwhile trying to protect all the squares, as it does not seem to yield more points.",-10.710594,-5.66712,-0.0035417401,-0.0021080286,-6.1685815,-0.002384807,-6.2011514,-4.2884054,-0.014235435,-8.245055
+The moving squares are very fast and do not seem to move in a logical manner.,-inf,-0.62592083,-0.76582676,-0.000681338,-inf,-10.210525,-5.0139948e-05,-inf,-0.022725184,-3.7984877
+Be careful not to box yourself in.,-4.238417,-8.950877,-0.014837783,-6.2441883,-0.001956706,-5.9522862,-0.0026211936,-9.170359,-0.01609596,-4.146658
+Defending your position from a far side of the map and shooting directly across will prevent enemy squares from reaching their destination.,-8.725709,-inf,-0.0003309361,-5.49771,-0.0041266037,-0.0005533903,-7.637543,-0.0010194713,-7.016675,-inf
+You generally want to avoid this as many red squares colliding into light blue squares will lower your score.,-inf,-10.223346,-0.00010926496,-0.17639951,-1.822098,-0.041735325,-3.1974723,-inf,-7.1847796,-0.00090919866
+The best approach is to carve the path through the grey blocks while avoiding light blue and blue blocks altogether.,-inf,-8.6187315,-0.0004680882,-inf,-0.00029899686,-0.0067188097,-5.0066633,-0.0029169766,-6.212771,-inf
+But the green squares are the most important ones.,-7.8546824,-6.5441527,-0.0018724748,-0.00061677006,-7.4104257,-5.82799,-0.002960585,-4.0400815,-0.017799744,-inf
+Using the spacebar key will destroy a square in front of you at the cost of 1 level point (you will regain the points once the red squares make it to the green one).,-0.0021013718,-inf,-7.9126754,-2.8187327,-0.061564907,-0.00029410952,-8.14827,-0.011233855,-4.8816485,-5.9239993
+Patience is key for this game.,-inf,-5.742517,-0.003245801,-0.00063368597,-7.398371,-inf,-0.00017600802,-inf,-9.198044e-05,-inf

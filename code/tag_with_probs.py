@@ -118,4 +118,4 @@ if __name__ == "__main__":
         )
         df_total = pd.concat([df_total, df_tagged])
 
-    df_total.to_csv(here(f"data/tagged_sentences_prob.csv"), index=False)
+    df_total.to_csv(here(f"data/tagged_sentences_prob_human.csv"), index=False)

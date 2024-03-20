@@ -72,10 +72,21 @@ TAGS_WITH_VALUES = {
 
 if __name__ == "__main__":
     # load data
-    df_tagged = pd.read_csv(here("data/tagged_sentences_prob.csv"))
+    df_tagged = pd.read_csv(here("data/tagged_sentences_prob_human.csv"))
     df_human = pd.read_csv(here("data/raw-data/tagged_annotated_sentences.csv"))
+    print(f"number of human sentences: {len(df_human)}")
     df = pd.merge(df_tagged, df_human, on="sentence", suffixes=("_lm", "_human"))
+    df = df.rename(
+        columns={
+            "dynamics": "dynamics_human",
+            "policy": "policy_human",
+            "abstract": "abstract_human",
+            "valence": "valence_human",
+        }
+    )
     recode_human_labels(df)
+
+    print(f"number of examples: {len(df)}")
 
     # fit and evaluate decision trees
     for tag_type, tag_values in TAGS_WITH_VALUES.items():
