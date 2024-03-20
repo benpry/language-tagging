@@ -8,6 +8,11 @@ from argparse import ArgumentParser
 import numpy as np
 import pandas as pd
 from pyprojroot import here
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_random_exponential,
+)  # for exponential backofffrom pyprojroot import here
 
 
 def format_messages(prompt, test_sentence):
@@ -39,12 +44,15 @@ tag_first_tokens = {
     "valence": {"win": "winning", "losing": "losing", "neutral": "neutral"},
 }
 
+@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
+def completion_with_backoff(**kwargs):
+    return openai.chat.completions.create(**kwargs)
 
 def get_tag_probabilities(test_sentence, prompt, tag_type, model="gpt-3.5-turbo"):
     """
     Get the probability of each tag for a given sentence.
     """
-    response = openai.chat.completions.create(
+    response = completion_with_backoff(
         model=model,
         messages=format_messages(prompt, test_sentence),
         logprobs=True,
@@ -118,4 +126,4 @@ if __name__ == "__main__":
         )
         df_total = pd.concat([df_total, df_tagged])
 
-    df_total.to_csv(here(f"data/tagged_sentences_prob.csv"), index=False)
+    df_total.to_csv(here(f"data/video-tagged_sentences_prob.csv"), index=False)
