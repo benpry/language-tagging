@@ -19,4 +19,4 @@ source ~/.zshrc
 cd ~/language-tagging
 
 conda activate lang-tagging
-python code/tag_with_probs.py --messages_path data/raw-data/lang-ordered_message_history_by_sentence.csv --batch_size 100
+python code/tag_with_probs.py --messages_path data/raw-data/lang-ordered_message_history_by_sentence.csv --batch_size 100 --output_filename language-tagged_sentences_with_probs.csv

@@ -102,6 +102,7 @@ parser.add_argument(
 )
 parser.add_argument("--model_name", type=str, default="gpt-3.5-turbo-0125")
 parser.add_argument("--batch_size", type=int, default=100)
+parser.add_argument("--output_filename", type=str)
 
 if __name__ == "__main__":
     args = parser.parse_args()
@@ -128,4 +129,4 @@ if __name__ == "__main__":
         )
         df_total = pd.concat([df_total, df_tagged])
 
-    df_total.to_csv(here(f"data/video-tagged_sentences_prob.csv"), index=False)
+    df_total.to_csv(here(f"data/{args.output_filename}.csv"), index=False)
