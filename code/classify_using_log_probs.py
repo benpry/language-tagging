@@ -1,6 +1,7 @@
 """
 Use log probs to classify the sentences
 """
+
 import numpy as np
 import pandas as pd
 from prompts import examples
@@ -44,28 +45,40 @@ def make_classifications(df_test, clf, tag_type, tag_values):
 def recode_tag_labels(df):
     # re-encode human labels to match tags
     df["abstract_tag"] = df["abstract_tag"].apply(
-        lambda x: "abstract, complex, high-level information"
-        if x == "abstract"
-        else "concrete, simple, low-level information"
-        if x == "concrete"
-        else "ignorance statements or specific experiences"
+        lambda x: (
+            "abstract, complex, high-level information"
+            if x == "abstract"
+            else (
+                "concrete, simple, low-level information"
+                if x == "concrete"
+                else "ignorance statements or specific experiences"
+            )
+        )
     )
     df["policy_tag"] = df["policy_tag"].apply(
-        lambda x: "policy, or what actions to take including strategies or instructions"
-        if x == "policy"
-        else "not policy, or what actions to take including strategies or instructions"
+        lambda x: (
+            "policy, or what actions to take including strategies or instructions"
+            if x == "policy"
+            else "not policy, or what actions to take including strategies or instructions"
+        )
     )
     df["dynamics_tag"] = df["dynamics_tag"].apply(
-        lambda x: "dynamics, or how the world works including explanations or affordances"
-        if x == "dynamics"
-        else "not dynamics, or how the world works including explanations or affordances"
+        lambda x: (
+            "dynamics, or how the world works including explanations or affordances"
+            if x == "dynamics"
+            else "not dynamics, or how the world works including explanations or affordances"
+        )
     )
     df["valence_tag"] = df["valence_tag"].apply(
-        lambda x: "winning, including mentions of scoring points, victory, success, goals, solutions, best strategies"
-        if x == "winning"
-        else "neutral information"
-        if x == "neutral"
-        else "losing, including information about death, losing points, lowering scores, forfeiting, losing lives, getting stuck or trapped"
+        lambda x: (
+            "winning, including mentions of scoring points, victory, success, goals, solutions, best strategies"
+            if x == "winning"
+            else (
+                "neutral information"
+                if x == "neutral"
+                else "losing, including information about death, losing points, lowering scores, forfeiting, losing lives, getting stuck or trapped"
+            )
+        )
     )
 
 
@@ -77,7 +90,13 @@ TAGS_WITH_VALUES = {
 }
 
 
+parser = ArgumentParser()
+parser.add_argument("--condition", type=str)
+
+
 if __name__ == "__main__":
+    args = parser.parse_args()
+    condition = args.condition
     df_tagged_human = pd.read_csv(here("data/tagged_sentences_prob_human.csv"))
     df_human = pd.read_csv(here("data/raw-data/tagged_annotated_sentences.csv"))
     df_train = pd.merge(
@@ -93,7 +112,7 @@ if __name__ == "__main__":
     )
     recode_human_labels(df_train)
 
-    df_to_tag = pd.read_csv(here("data/tagged_sentences_prob.csv"))
+    df_to_tag = pd.read_csv(here(f"data/{condition}-tagged_sentences_prob.csv"))
 
     print(f"number of training examples: {len(df_train)}")
     print(f"number of test examples: {len(df_to_tag)}")
@@ -108,5 +127,6 @@ if __name__ == "__main__":
 
     recode_tag_labels(df_to_tag)
     df_to_tag.to_csv(
-        here("data/tagged_sentences_prob_with_classifications.csv"), index=False
+        here(f"data/{condition}-tagged_sentences_prob_with_classifications.csv"),
+        index=False,
     )

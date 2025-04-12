@@ -1,6 +1,7 @@
 """
 A little command-line script to manually tag sentences
 """
+
 import os
 import pandas as pd
 from pyprojroot import here

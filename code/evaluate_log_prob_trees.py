@@ -1,6 +1,7 @@
 """
 Fit and evaluate decision trees that classify sentences according to the log probability of each tag.
 """
+
 import os
 import numpy as np
 import pandas as pd
@@ -37,29 +38,39 @@ def fit_log_prob_tree(X, y):
 def recode_human_labels(df):
     # re-encode human labels to match tags
     df["abstract_human"] = df["abstract_human"].apply(
-        lambda x: "abstract"
-        if x == "abstract, complex, high-level information"
-        else "concrete"
-        if x == "concrete, simple, low-level information"
-        else "ignorance"
+        lambda x: (
+            "abstract"
+            if x == "abstract, complex, high-level information"
+            else (
+                "concrete"
+                if x == "concrete, simple, low-level information"
+                else "ignorance"
+            )
+        )
     )
     df["policy_human"] = df["policy_human"].apply(
-        lambda x: "policy"
-        if x == "policy, or what actions to take including strategies or instructions"
-        else "not policy"
+        lambda x: (
+            "policy"
+            if x
+            == "policy, or what actions to take including strategies or instructions"
+            else "not policy"
+        )
     )
     df["dynamics_human"] = df["dynamics_human"].apply(
-        lambda x: "dynamics"
-        if x == "dynamics, or how the world works including explanations or affordances"
-        else "not dynamics"
+        lambda x: (
+            "dynamics"
+            if x
+            == "dynamics, or how the world works including explanations or affordances"
+            else "not dynamics"
+        )
     )
     df["valence_human"] = df["valence_human"].apply(
-        lambda x: "winning"
-        if x
-        == "winning, including mentions of scoring points, victory, success, goals, solutions, best strategies"
-        else "neutral"
-        if x == "neutral information"
-        else "losing"
+        lambda x: (
+            "winning"
+            if x
+            == "winning, including mentions of scoring points, victory, success, goals, solutions, best strategies"
+            else "neutral" if x == "neutral information" else "losing"
+        )
     )
 
 
